@@ -48,7 +48,7 @@ int main()
    while(iter->hasNext())
    {
       CD* cd = iter->next();
-      cd->displayCD();
+     cd->displayCD();
    }
    delete iter;
 
